@@ -7,9 +7,9 @@ form.addEventListener('submit', (event) => {
   if (password !== confirmar) {
     Swal.fire({
   title: 'Error!',
-  text: 'la contraseña no coincide',
+  text: 'las contraseñas no coincide',
   icon: 'error',
-  confirmButtonText: 'Cool'
+  confirmButtonText: 'Ok'
 })
     event.preventDefault(); // evita que el formulario se envíe
   }
